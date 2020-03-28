@@ -1,0 +1,27 @@
+{
+  "name": "alex_melentev/psr7",
+  "description": "My PSR-7 implementation",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Alex Melentev",
+      "email": "alex@melentev.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Alex_Melentev\\psr7\\": "psr7/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": ">=7.2",
+    "ext-mbstring": "*",
+    "psr/http-message": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
