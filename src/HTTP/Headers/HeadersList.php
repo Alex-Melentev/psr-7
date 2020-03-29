@@ -5,7 +5,6 @@ namespace LoneCat\PSR7\HTTP\Headers;
 use Exception;
 
 class HeadersList
-    implements HeadersListInterface
 {
 
     public const SEPARATOR = ';';

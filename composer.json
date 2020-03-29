@@ -1,6 +1,7 @@
 {
   "name": "lonecat/psr7",
   "description": "My PSR-7 implementation",
+  "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
     {
@@ -13,6 +14,11 @@
       "LoneCat\\PSR7\\": "src/"
     }
   },
+  "autoload-dev": {
+    "psr-4": {
+      "LoneCat\\Tests\\": "tests/"
+    }
+  },
   "config": {
     "sort-packages": true
   },
@@ -23,5 +29,8 @@
   },
   "require-dev": {
     "phpunit/phpunit": "*"
+  },
+  "scripts": {
+    "test": "phpunit --colors=always"
   }
 }
