@@ -1,8 +1,8 @@
 <?php
 
-namespace Alex_Melentev\psr7\HTTP\Messages;
+namespace LoneCat\PSR7\HTTP\Messages;
 
-use Alex_Melentev\psr7\HTTP\Uri\URI;
+use LoneCat\PSR7\HTTP\Uri\URI;
 use Exception;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\UriInterface;

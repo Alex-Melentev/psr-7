@@ -1,6 +1,6 @@
 <?php
 
-namespace Alex_Melentev\psr7\Stream;
+namespace LoneCat\PSR7\Stream;
 
 use Exception;
 use Psr\Http\Message\StreamInterface;

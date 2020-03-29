@@ -1,6 +1,6 @@
 <?php
 
-namespace Alex_Melentev\psr7\HTTP\Uri;
+namespace LoneCat\PSR7\HTTP\Uri;
 
 use Exception;
 use Psr\Http\Message\UriInterface;

@@ -1,5 +1,5 @@
 {
-  "name": "alex_melentev/psr7",
+  "name": "lonecat/psr7",
   "description": "My PSR-7 implementation",
   "license": "proprietary",
   "authors": [
@@ -10,14 +10,14 @@
   ],
   "autoload": {
     "psr-4": {
-      "Alex_Melentev\\psr7\\": "psr7/"
+      "LoneCat\\PSR7\\": "PSR7/"
     }
   },
   "config": {
     "sort-packages": true
   },
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.4",
     "ext-mbstring": "*",
     "psr/http-message": "*"
   },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Alex_Melentev\psr7\HTTP\Messages;
+namespace LoneCat\PSR7\HTTP\Messages;
 
 use Exception;
 use Psr\Http\Message\ServerRequestInterface;

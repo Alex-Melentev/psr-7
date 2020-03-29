@@ -1,8 +1,8 @@
 <?php
 
-namespace Alex_Melentev\psr7\HTTP\Messages;
+namespace LoneCat\PSR7\HTTP\Messages;
 
-use Alex_Melentev\psr7\HTTP\Headers\HeadersListInterface;
+use LoneCat\PSR7\HTTP\Headers\HeadersList;
 use Exception;
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\StreamInterface;
@@ -16,7 +16,7 @@ abstract class Message
                                       '1.0',];
 
     protected string $protocol_version = self::PROTOCOL_VERSIONS[0];
-    protected ?HeadersListInterface $headers = null;
+    protected ?HeadersList $headers = null;
     protected ?StreamInterface $body = null;
 
     public function getProtocolVersion()
@@ -100,9 +100,8 @@ abstract class Message
 
     protected function initiateHeaders()
     {
-        if (!($this->headers instanceof HeadersListInterface))
-            $this->headers = HTTPFactory::get()
-                                           ->generateHeadersObj()
+        if (!($this->headers instanceof HeadersList))
+            $this->headers = new HeadersList();
             ;
     }
 

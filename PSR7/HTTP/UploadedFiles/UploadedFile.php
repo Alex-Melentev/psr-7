@@ -1,10 +1,9 @@
 <?php
 
-namespace Alex_Melentev\psr7\HTTP\UploadedFiles;
+namespace LoneCat\PSR7\HTTP\UploadedFiles;
 
-use Alex_Melentev\psr7\Stream\Stream;
+use LoneCat\PSR7\Stream\Stream;
 use Exception;
-use Framework\Stream\StreamFactory;
 use InvalidArgumentException;
 use Psr\Http\Message\StreamInterface;
 use Psr\Http\Message\UploadedFileInterface;

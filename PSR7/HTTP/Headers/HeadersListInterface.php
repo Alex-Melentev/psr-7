@@ -1,6 +1,6 @@
 <?php
 
-namespace Alex_Melentev\psr7\HTTP\Headers;
+namespace LoneCat\PSR7\HTTP\Headers;
 
 interface HeadersListInterface
 {
