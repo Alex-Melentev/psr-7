@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "LoneCat\\PSR7\\": "PSR7/"
+      "LoneCat\\PSR7\\": "src/"
     }
   },
   "config": {
