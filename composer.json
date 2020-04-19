@@ -2,11 +2,11 @@
   "name": "lonecat/psr7",
   "description": "My PSR-7 implementation",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "AGPL-3.0-only",
   "authors": [
     {
-      "name": "Alex Melentev",
-      "email": "alex@melentev.net"
+      "name": "Lone Cat",
+      "email": "mail@lone-cat.dev"
     }
   ],
   "autoload": {
